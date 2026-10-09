@@ -1,5 +1,11 @@
 # Runtime Console — Package Manager version
 
+## Tool preview
+
+![InGameConsole interface](Documentation~/InGameConsole.png)
+
+Console redesign preview with illustrative sample data; not a Unity Play Mode capture. Live watches are included in v1.3.0 but are not shown here.
+
 ## Install from GitHub
 
 In Unity Package Manager, choose **+ > Add package from git URL** and enter:
@@ -44,4 +50,5 @@ Gate gameplay input while the console is open. Development Builds Only defaults 
 ## Validation and compatibility
 
 Package structure, manifest, assembly separation, prefab GUID references, and event assembly names are checked. Runtime and Editor source are compiled against installed Unity 6000.6.0f1 assemblies; 35 data-path tests passed. The manifest minimum is Unity 2021.3; older-version runtime behavior has not been tested. Unity's licensing connection prevented Package Manager import and Play Mode verification in this environment.
+
 
