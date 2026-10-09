@@ -1,0 +1,19 @@
+{
+  "name": "com.local.runtime-console",
+  "version": "1.3.0",
+  "displayName": "Runtime Console",
+  "description": "In-game debug console with command suggestions, performance metrics, and Inspector-configurable game commands.",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.modules.imgui": "1.0.0"
+  },
+  "keywords": [
+    "console",
+    "debugging",
+    "commands",
+    "performance"
+  ],
+  "author": {
+    "name": "Runtime Console"
+  }
+}
